@@ -1,9 +1,9 @@
-**📊 YouTube Video Popularity Predictor**
+#**📊 YouTube Video Popularity Predictor**
 
 A Machine-Learning powered Streamlit web application that predicts whether a YouTube video will be Popular or Not Popular based on engagement metrics such as likes, comments, views, and more. Designed for content creators, analysts, and ML beginners looking for a practical end-to-end project.
 
 
-**🚀 Features**
+#**🚀 Features**
 
 ---🧠 Pre-trained ML Model stored as The Deshbhakt.pkl
 ---🎛️ Clean & Interactive Streamlit UI
@@ -23,7 +23,9 @@ A Machine-Learning powered Streamlit web application that predicts whether a You
 
 **🚀 Demo**
 Run locally using Streamlit:
->>>streamlit run The Deshbhakt.py
+'''bash
+streamlit run The Deshbhakt.py
+'''
 
 
 **🧩 Project Structure**
@@ -59,7 +61,9 @@ The model (loaded from The Deshbhakt.pkl) predicts:
 ---0 → Not Popular 😐
 
 This logic is handled in The Deshbhakt.py using:
->>>prediction = model.predict(input_data)[0]
+'''bash
+prediction = model.predict(input_data)[0]
+'''
 
 
 **🧠 Model Training Overview**
@@ -75,10 +79,14 @@ Model stored using Python’s pickle module.
 **▶️ Running the Project**
 
 1️⃣ Install dependencies
->>>pip install streamlit pandas numpy scikit-learn
+'''bash
+pip install streamlit pandas numpy scikit-learn
+'''
 
 2️⃣ Run the app
->>>streamlit run The Deshbhakt.py
+'''bash
+streamlit run The Deshbhakt.py
+'''
 
 3️⃣ Use the UI
 Enter video metrics → Get prediction instantly.
