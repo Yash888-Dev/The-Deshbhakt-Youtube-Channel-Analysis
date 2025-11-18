@@ -23,6 +23,7 @@ A Machine-Learning powered Streamlit web application that predicts whether a You
 
 **🚀 Demo**
 Run locally using Streamlit:
+
 '''bash
 streamlit run The Deshbhakt.py
 '''
@@ -61,6 +62,7 @@ The model (loaded from The Deshbhakt.pkl) predicts:
 ---0 → Not Popular 😐
 
 This logic is handled in The Deshbhakt.py using:
+
 '''bash
 prediction = model.predict(input_data)[0]
 '''
@@ -79,11 +81,13 @@ Model stored using Python’s pickle module.
 **▶️ Running the Project**
 
 1️⃣ Install dependencies
+
 '''bash
 pip install streamlit pandas numpy scikit-learn
 '''
 
 2️⃣ Run the app
+
 '''bash
 streamlit run The Deshbhakt.py
 '''
