@@ -24,9 +24,7 @@ A Machine-Learning powered Streamlit web application that predicts whether a You
 **🚀 Demo**
 Run locally using Streamlit:
 
-'''bash
-streamlit run The Deshbhakt.py
-'''
+>>>streamlit run The Deshbhakt.py
 
 
 **🧩 Project Structure**
@@ -63,9 +61,8 @@ The model (loaded from The Deshbhakt.pkl) predicts:
 
 This logic is handled in The Deshbhakt.py using:
 
-'''bash
-prediction = model.predict(input_data)[0]
-'''
+>>>prediction = model.predict(input_data)[0]
+
 
 
 **🧠 Model Training Overview**
@@ -82,15 +79,11 @@ Model stored using Python’s pickle module.
 
 1️⃣ Install dependencies
 
-'''bash
-pip install streamlit pandas numpy scikit-learn
-'''
+>>>pip install streamlit pandas numpy scikit-learn
 
 2️⃣ Run the app
 
-'''bash
-streamlit run The Deshbhakt.py
-'''
+>>>streamlit run The Deshbhakt.py
 
 3️⃣ Use the UI
 Enter video metrics → Get prediction instantly.
